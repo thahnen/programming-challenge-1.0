@@ -5,7 +5,6 @@
 # Aufgabe 002: Temperature Converter
 
 import sys
-import random
 
 def main(arg):
     if len(arg) < 4 or not (arg[2] in ["C", "F", "K"] or arg[3] in ["C", "F", "K"]):

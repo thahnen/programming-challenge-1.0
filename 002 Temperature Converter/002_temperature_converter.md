@@ -7,7 +7,6 @@ __None__
 ## Technik
 Python 2.7.10 with Libraries
 1. sys
-2. random
 
 ### Future
 May convert to more than one quantity.
