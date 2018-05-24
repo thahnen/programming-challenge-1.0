@@ -1,4 +1,4 @@
-# 003 Normal "Rock Paper Scissors" with BBT Addon
+# 006 Normal "Rock Paper Scissors" with BBT Addon
 Plays a game against the Computer, you choose your symbol.
 
 ## Data

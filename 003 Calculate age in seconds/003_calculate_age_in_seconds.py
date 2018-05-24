@@ -8,6 +8,10 @@ import sys
 import datetime
 
 def main(arg):
+    if len(arg) == 1 or "." not in arg[1]:
+        print "Ein Parameter muss übergeben werden im Format:\nDD.MM.YYYY"
+        return
+        
     birth = [int(i) for i in arg[1].split(".")]
     try:
         birth = datetime.datetime(birth[2], birth[1], birth[0])
